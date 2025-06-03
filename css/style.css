@@ -530,15 +530,14 @@
   width: 60px;
   height: 60px;
   display: flex;
+
   align-items: center;
   justify-content: center;
   background: var(--primary);
-  border-radius: 2px;
-  transform: rotate(-45deg);
+  border-radius: 6px;
 }
 
 .service-item .service-icon i {
-  transform: rotate(45deg);
 }
 
 .service-item a.btn {
