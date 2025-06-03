@@ -137,6 +137,12 @@
     transition: 0.5s;
   }
 
+  .navbar .navbar-brand {
+    margin-left: 60px;
+  }
+  .header .marc > div {
+    margin-left: 43px;
+  }
   .navbar .nav-item:hover .dropdown-menu {
     top: 100%;
     visibility: visible;
