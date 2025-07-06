@@ -68,7 +68,9 @@
         href="index.html"
         class="navbar-brand d-flex align-items-center px-4 px-lg-5"
       >
-        <h3 class="m-0 text-primary">SALES DIGITAL</h3>
+        <h3 class="m-0 text-primary">
+          <img src="img/simbolo.svg" height="40px" alt="" /> SALES DIGITAL
+        </h3>
       </a>
       <button
         type="button"
@@ -121,23 +123,15 @@
         <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
           <div class="owl-carousel header-carousel">
             <div class="owl-carousel-item position-relative">
-              <img
-                class="img-fluid"
-                src="img/homem-com-dispositivo-futurista-apontando-para-cima.jpg"
-                alt=""
-              />
+              <img class="img-fluid" src="img/Banner.jpg" alt="" />
               <div class="owl-carousel-text">
-                <h3 class="display-1 text-white mb-0">Descrição 1</h3>
+                <h3 class="display-1 text-white mb-0"></h3>
               </div>
             </div>
             <div class="owl-carousel-item position-relative">
-              <img
-                class="img-fluid"
-                src="img/homem-com-dispositivo-futurista-apontando-para-cima.jpg"
-                alt=""
-              />
+              <img class="img-fluid" src="img/banner_2.jpg" alt="" />
               <div class="owl-carousel-text">
-                <h5 class="display-1 text-white mb-0">Descrição 2</h5>
+                <h5 class="display-1 text-white mb-0"></h5>
               </div>
             </div>
           </div>
@@ -462,134 +456,225 @@
             Estamos oferecendo preços competitivos para nossos clientes.
           </p>
         </div>
-        <div class="row g-0">
-          <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
-            <div class="bg-light rounded">
-              <div class="border-bottom py-4 px-5 mb-4">
-                <h4 class="text-primary mb-1">Plano Básico</h4>
-                <small class="text-uppercase">Para Pequenas Empresas</small>
-              </div>
-              <div class="p-5 pt-0">
-                <h1 class="display-5 mb-3">
-                  <small
-                    class="align-top"
-                    style="font-size: 22px; line-height: 45px"
-                  ></small
-                  >130 mil
-                  <small
-                    class="align-bottom"
-                    style="font-size: 16px; line-height: 40px"
-                    >Kz</small
-                  >
-                </h1>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>HTML5 & CSS3</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
-                </div>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>Bootstrap v5</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
-                </div>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>Layout Responsivo</span
-                  ><i class="fa fa-times text-danger pt-1"></i>
-                </div>
-                <div class="d-flex justify-content-between mb-2">
-                  <span>Suporte a Múltiplos Navegadores</span
-                  ><i class="fa fa-times text-danger pt-1"></i>
-                </div>
-                <a href="" class="btn btn-primary py-2 px-4 mt-4"
-                  >Pedir Agora</a
-                >
-              </div>
-            </div>
-          </div>
 
-          <div class="col-lg-4 wow slideInUp" data-wow-delay="0.3s">
-            <div
-              class="bg-white rounded shadow position-relative"
-              style="z-index: 1"
+        <!-- Botões de Categoria -->
+        <ul
+          class="nav nav-pills mb-4 justify-content-center"
+          id="pacoteTabs"
+          role="tablist"
+        >
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link active"
+              id="trafego-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#trafego"
+              type="button"
+              role="tab"
+              aria-controls="trafego"
+              aria-selected="true"
             >
-              <div class="border-bottom py-4 px-5 mb-4">
-                <h4 class="text-primary mb-1">Plano Padrão</h4>
-                <small class="text-uppercase"
-                  >Para Empresas de Médio Porte</small
-                >
+              Tráfego Pago
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="cyber-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#cyber"
+              type="button"
+              role="tab"
+              aria-controls="cyber"
+              aria-selected="false"
+            >
+              Cyber Security
+            </button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button
+              class="nav-link"
+              id="web-tab"
+              data-bs-toggle="pill"
+              data-bs-target="#web"
+              type="button"
+              role="tab"
+              aria-controls="web"
+              aria-selected="false"
+            >
+              Websites
+            </button>
+          </li>
+        </ul>
+
+        <!-- Conteúdo dos Pacotes -->
+        <div class="tab-content">
+          <!-- Tráfego Pago -->
+          <div
+            class="tab-pane fade show active"
+            id="trafego"
+            role="tabpanel"
+            aria-labelledby="trafego-tab"
+          >
+            <div class="row g-4">
+              <!-- Pacote Fácil -->
+              <div class="col-lg-4" data-wow-delay="0.1s">
+                <div class="bg-light rounded text-center p-4 h-100">
+                  <h4 class="text-primary mb-3">Pacote Fácil</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>Facebook ✓</li>
+                    <li>Instagram ✓</li>
+                    <li>WhatsApp ✓</li>
+                  </ul>
+                  <h2 class="mb-3">100 mil kz/mês</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
+                </div>
               </div>
-              <div class="p-5 pt-0">
-                <h1 class="display-5 mb-3">
-                  <small
-                    class="align-top"
-                    style="font-size: 22px; line-height: 45px"
-                  ></small
-                  >200 mil
-                  <small
-                    class="align-bottom"
-                    style="font-size: 16px; line-height: 40px"
-                    >Kz</small
-                  >
-                </h1>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>HTML5 & CSS3</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
+
+              <!-- Pacote Médio -->
+              <div class="col-lg-4" data-wow-delay="0.3s">
+                <div class="bg-white rounded text-center p-4 shadow h-100">
+                  <h4 class="text-primary mb-3">Pacote Médio</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>Facebook ✓</li>
+                    <li>Instagram ✓</li>
+                    <li>WhatsApp ✓</li>
+                    <li>TikTok ✓</li>
+                    <li>Twitter ✓</li>
+                  </ul>
+                  <h2 class="mb-3">200 mil kz/mês</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
                 </div>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>Bootstrap v5</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
+              </div>
+
+              <!-- Pacote Plus -->
+              <div class="col-lg-4" data-wow-delay="0.5s">
+                <div class="bg-light rounded text-center p-4 h-100">
+                  <h4 class="text-primary mb-3">Pacote Plus</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>Facebook ✓</li>
+                    <li>Instagram ✓</li>
+                    <li>WhatsApp ✓</li>
+                    <li>TikTok ✓</li>
+                    <li>Twitter ✓</li>
+                    <li>Google ✓</li>
+                    <li>LinkedIn ✓</li>
+                  </ul>
+                  <h2 class="mb-3">300 mil kz/mês</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
                 </div>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>Layout Responsivo</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
-                </div>
-                <div class="d-flex justify-content-between mb-2">
-                  <span>Suporte a Múltiplos Navegadores</span
-                  ><i class="fa fa-times text-danger pt-1"></i>
-                </div>
-                <a href="" class="btn btn-primary py-2 px-4 mt-4"
-                  >Pedir Agora</a
-                >
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
-            <div class="bg-light rounded">
-              <div class="border-bottom py-4 px-5 mb-4">
-                <h4 class="text-primary mb-1">Plano Avançado</h4>
-                <small class="text-uppercase">Para Grandes Empresas</small>
+          <!-- Cyber Security -->
+          <div
+            class="tab-pane fade"
+            id="cyber"
+            role="tabpanel"
+            aria-labelledby="cyber-tab"
+          >
+            <div class="row g-4">
+              <!-- Pacote Básico -->
+              <div class="col-lg-4" data-wow-delay="0.1s">
+                <div class="bg-light rounded text-center p-4 h-100">
+                  <h4 class="text-primary mb-3">Pacote Básico</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>Antivírus Corporativo ✓</li>
+                    <li>Firewall ✓</li>
+                    <li>Relatórios Mensais ✓</li>
+                  </ul>
+                  <h2 class="mb-3">150 mil kz/mês</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
+                </div>
               </div>
-              <div class="p-5 pt-0">
-                <h1 class="display-5 mb-3">
-                  <small
-                    class="align-top"
-                    style="font-size: 22px; line-height: 45px"
-                  ></small
-                  >300 mil
-                  <small
-                    class="align-bottom"
-                    style="font-size: 16px; line-height: 40px"
-                    >Kz</small
-                  >
-                </h1>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>HTML5 & CSS3</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
+
+              <!-- Pacote Intermediário -->
+              <div class="col-lg-4" data-wow-delay="0.3s">
+                <div class="bg-white rounded text-center p-4 shadow h-100">
+                  <h4 class="text-primary mb-3">Pacote Intermediário</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>Antivírus Corporativo ✓</li>
+                    <li>Firewall ✓</li>
+                    <li>Monitoramento 24h ✓</li>
+                    <li>Teste de Vulnerabilidade ✓</li>
+                  </ul>
+                  <h2 class="mb-3">250 mil kz/mês</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
                 </div>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>Bootstrap v5</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
+              </div>
+
+              <!-- Pacote Completo -->
+              <div class="col-lg-4" data-wow-delay="0.5s">
+                <div class="bg-light rounded text-center p-4 h-100">
+                  <h4 class="text-primary mb-3">Pacote Completo</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>Antivírus Corporativo ✓</li>
+                    <li>Firewall ✓</li>
+                    <li>Monitoramento 24h ✓</li>
+                    <li>Teste de Vulnerabilidade ✓</li>
+                    <li>Consultoria Personalizada ✓</li>
+                    <li>Resposta a Incidentes ✓</li>
+                  </ul>
+                  <h2 class="mb-3">400 mil kz/mês</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
                 </div>
-                <div class="d-flex justify-content-between mb-3">
-                  <span>Layout Responsivo</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
+              </div>
+            </div>
+          </div>
+
+          <!-- Websites -->
+          <div
+            class="tab-pane fade"
+            id="web"
+            role="tabpanel"
+            aria-labelledby="web-tab"
+          >
+            <div class="row g-4">
+              <!-- Website Básico -->
+              <div class="col-lg-4" data-wow-delay="0.1s">
+                <div class="bg-light rounded text-center p-4 h-100">
+                  <h4 class="text-primary mb-3">Website Básico</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>Landing Page ✓</li>
+                    <li>Design Responsivo ✓</li>
+                    <li>Domínio Grátis 1 ano ✓</li>
+                  </ul>
+                  <h2 class="mb-3">250 mil kz</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
                 </div>
-                <div class="d-flex justify-content-between mb-2">
-                  <span>Suporte a Múltiplos Navegadores</span
-                  ><i class="fa fa-check text-primary pt-1"></i>
+              </div>
+
+              <!-- Website Intermediário -->
+              <div class="col-lg-4" data-wow-delay="0.3s">
+                <div class="bg-white rounded text-center p-4 shadow h-100">
+                  <h4 class="text-primary mb-3">Website Intermediário</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>Site Completo ✓</li>
+                    <li>Design Responsivo ✓</li>
+                    <li>Domínio & E-mail Profissional ✓</li>
+                    <li>Suporte Técnico 3 meses ✓</li>
+                  </ul>
+                  <h2 class="mb-3">450 mil kz</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
                 </div>
-                <a href="" class="btn btn-primary py-2 px-4 mt-4"
-                  >Pedir Agora</a
-                >
+              </div>
+
+              <!-- Loja Online Completa -->
+              <div class="col-lg-4" data-wow-delay="0.5s">
+                <div class="bg-light rounded text-center p-4 h-100">
+                  <h4 class="text-primary mb-3">Loja Online Completa</h4>
+                  <ul class="list-unstyled mb-3">
+                    <li>E-commerce ✓</li>
+                    <li>Design Responsivo ✓</li>
+                    <li>Domínio & E-mail ✓</li>
+                    <li>Integração de Pagamentos ✓</li>
+                    <li>Gestão de Produtos ✓</li>
+                    <li>Suporte Técnico 6 meses ✓</li>
+                  </ul>
+                  <h2 class="mb-3">800 mil kz</h2>
+                  <a href="#" class="btn btn-primary">Pedir Agora</a>
+                </div>
               </div>
             </div>
           </div>
@@ -612,14 +697,19 @@
           <h5 class="fw-bold text-primary text-uppercase">Nosso Team</h5>
           <p class="mb-0">Time qualificado à disposição do seu negócio.</p>
         </div>
+
         <div class="row g-5">
+          <!-- Card 1 -->
           <div class="col-lg-4 wow slideInUp" data-wow-delay="0.6s">
             <div class="team-item bg-light rounded overflow-hidden">
-              <div class="team-img position-relative overflow-hidden">
+              <div
+                class="team-img position-relative overflow-hidden"
+                style="height: 400px"
+              >
                 <img
-                  class="img-fluid w-100"
-                  width="600"
-                  src="img/Adilson_2.jpg"
+                  class="img-fluid w-100 h-100"
+                  style="object-fit: cover"
+                  src="img/Adilson_1.jpg"
                   alt=""
                 />
                 <div class="team-social">
@@ -641,15 +731,27 @@
                 </div>
               </div>
               <div class="text-center py-4">
-                <h4 class="text-primary">Adilson Sales</h4>
-                <p class="text-uppercase m-0">CEO e Design Gráfico</p>
+                <h4 class="text-primary">Jael Sales</h4>
+                <p class="text-uppercase m-0">
+                  Gestor de projeto e Analista de cibersegurança
+                </p>
               </div>
             </div>
           </div>
+
+          <!-- Card 2 -->
           <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
             <div class="team-item bg-light rounded overflow-hidden">
-              <div class="team-img position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/ADELIO.png" alt="" />
+              <div
+                class="team-img position-relative overflow-hidden"
+                style="height: 400px"
+              >
+                <img
+                  class="img-fluid w-100 h-100"
+                  style="object-fit: cover"
+                  src="img/ADELIO.png"
+                  alt=""
+                />
                 <div class="team-social">
                   <a
                     class="btn btn-lg btn-primary btn-lg-square rounded"
@@ -674,10 +776,20 @@
               </div>
             </div>
           </div>
+
+          <!-- Card 3 -->
           <div class="col-lg-4 wow slideInUp" data-wow-delay="0.9s">
             <div class="team-item bg-light rounded overflow-hidden">
-              <div class="team-img position-relative overflow-hidden">
-                <img class="img-fluid w-100" src="img/processando.png" alt="" />
+              <div
+                class="team-img position-relative overflow-hidden"
+                style="height: 400px"
+              >
+                <img
+                  class="img-fluid w-100 h-100"
+                  style="object-fit: cover"
+                  src="img/processando.png"
+                  alt=""
+                />
                 <div class="team-social">
                   <a
                     class="btn btn-lg btn-primary btn-lg-square rounded"
@@ -706,6 +818,7 @@
       </div>
     </div>
     <!-- Team End -->
+
     <!-- Testimonial Start -->
     <div class="container-xxl py-4" id="cliente">
       <div class="container">
@@ -908,19 +1021,6 @@
             <p class="mb-2">
               <i class="fa fa-envelope me-3"></i>infosales@Digital.com
             </p>
-            <div class="d-flex pt-2">
-              <a
-                class="btn btn-outline-light btn-social rounded-circle"
-                href="https://www.facebook.com/profile.php?id=100064412632902"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social rounded-circle" href=""
-                ><i class="fab fa-youtube"></i
-              ></a>
-              <a class="btn btn-outline-light btn-social rounded-circle" href=""
-                ><i class="fab fa-linkedin-in"></i
-              ></a>
-            </div>
           </div>
           <div class="col-lg-3 col-md-6">
             <h5 class="text-light mb-4">Serviços</h5>
@@ -940,6 +1040,19 @@
           <div class="col-lg-3 col-md-6">
             <h5 class="text-light mb-4">Sales Digital</h5>
             <p>Conectamos sua empresa ao futuro digital.</p>
+            <div class="d-flex pt-2">
+              <a
+                class="btn btn-outline-light btn-social rounded-circle"
+                href="https://www.facebook.com/profile.php?id=100064412632902"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social rounded-circle" href=""
+                ><i class="fab fa-youtube"></i
+              ></a>
+              <a class="btn btn-outline-light btn-social rounded-circle" href=""
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
           </div>
         </div>
       </div>
